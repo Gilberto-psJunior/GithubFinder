@@ -1,4 +1,4 @@
-import React from "react";
+
 import classes from "../components/Search.module.css";
 
 type SearchProps = {

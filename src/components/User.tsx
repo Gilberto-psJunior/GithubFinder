@@ -2,7 +2,7 @@ import { userProps } from "../types/user"
 import { MdLocationPin } from "react-icons/md"
 import { MdPerson } from "react-icons/md";
 import { Link } from "react-router-dom"
-import UserStyled from "../components/UserStyled.module.css"
+
 import classes from "../components/UserStyled.module.css"
 
 export const User=({public_repos,bio,name,login,avatar_url,followers,following,location}:userProps)=>{
