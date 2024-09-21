@@ -1,30 +1,87 @@
-# React + TypeScript + Vite
+# GitHub Finder
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a web application that allows users to search for GitHub profiles and view detailed information about repositories, followers, and more. The app is built with React and TypeScript and leverages the GitHub API to fetch user data. It is set up using Vite for fast development and build performance.
 
-Currently, two official plugins are available:
+## Table of Contents
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- [Features](#features)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Technologies](#technologies)
+- [Contributing](#contributing)
+- [License](#license)
 
-## Expanding the ESLint configuration
+## Features
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+- Search for GitHub users by username.
+- View detailed user profile information, including:
+  - Public repositories
+  - Followers
+  - Following
+  - GitHub bio
+  - Location
+  - Company (if available)
+- Responsive design for a seamless experience on all devices.
 
-- Configure the top-level `parserOptions` property like this:
+## Installation
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json', './tsconfig.app.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+To run this project locally, follow these steps:
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+1. Clone the repository:
+    ```bash
+    git clone https://github.com/Gilberto-psJunior/GithubFinder.git
+    ```
+
+2. Navigate to the project directory:
+    ```bash
+    cd GithubFinder
+    ```
+
+3. Install the required dependencies:
+    ```bash
+    npm install
+    ```
+
+4. Create a `.env` file in the root directory and add your GitHub API key:
+    ```
+    GITHUB_API_KEY=your_github_api_key_here
+    ```
+
+5. Run the application:
+    ```bash
+    npm run dev
+    ```
+
+6. Open the app in your browser at `http://localhost:5173`.
+
+## Usage
+
+Simply enter a GitHub username in the search bar, and the app will display detailed information about the user's profile, including repositories, followers, and more.
+
+## Technologies
+
+This project is built using the following technologies:
+
+- React
+- TypeScript
+- GitHub API
+- Vite
+- HTML5
+- CSS3
+
+## Contributing
+
+If you'd like to contribute to this project, please follow these steps:
+
+1. Fork the repository.
+2. Create a new branch (`git checkout -b feature/YourFeature`).
+3. Commit your changes (`git commit -m 'Add some feature'`).
+4. Push to the branch (`git push origin feature/YourFeature`).
+5. Open a Pull Request.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+SEE THE APP RUNNING AT :
+# The link to the project in vercel : https://github-finder-5jsuq4437.vercel.app/
