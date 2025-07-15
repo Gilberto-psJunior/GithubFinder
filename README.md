@@ -4,7 +4,7 @@ This is a web application that allows users to search for GitHub profiles and vi
 
 ## 📸 Imagens do Projeto
 
-> 📺 Home com destaque do filme principal + carrossel de filmes
+
 
 ![Preview do Cloneflix](./src/assets/githubfinder-preview.png)
 
