@@ -2,6 +2,12 @@
 
 This is a web application that allows users to search for GitHub profiles and view detailed information about repositories, followers, and more. The app is built with React and TypeScript and leverages the GitHub API to fetch user data. It is set up using Vite for fast development and build performance.
 
+## 📸 Imagens do Projeto
+
+> 📺 Home com destaque do filme principal + carrossel de filmes
+
+![Preview do Cloneflix](./src/assets/githubfinder-preview.png)
+
 ## Table of Contents
 
 - [Features](#features)
